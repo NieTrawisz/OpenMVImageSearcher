@@ -20,6 +20,7 @@ clock = time.clock()
 while(True):
 clock.tick()
 img = sensor.snapshot().lens_corr(1.8)
+
 # Circle objects have four values: x, y, r (radius), and magnitude. The
 # magnitude is the strength of the detection of the circle. Higher is
 # better...
